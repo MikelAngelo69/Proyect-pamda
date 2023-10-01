@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px
+}
+
+body{
+    background: linear-gradient(150deg, #1e2258, #5DADE2);
+    height: 100vh;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    padding: 5px 7%;
+    
+}
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color:rgb(16, 14, 48);
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color:red ;
+}
+
+header .btn button{
+    font-weight: 700;
+    color: #e9e065;
+    padding: 9px 25px;
+    background:rgb(53, 53, 226) ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color:rgb(231, 12, 12);
+    color: darkkhaki;
+    transform: scale(1.1);
+}
